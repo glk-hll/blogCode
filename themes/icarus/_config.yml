@@ -1,0 +1,262 @@
+# Version of the Icarus theme that is currently used
+version: 2.6.0
+
+# 网站图标,可以搜索在线图标制作,并将其放在images文件夹中
+favicon: /images/favicon.ico
+
+# 数组中附加的HTML元标记。
+meta: 
+
+# Path or URL to RSS atom.xml
+rss: 
+
+# 显示在导航栏左侧的网站logo，同样可以自己制作
+logo: /images/logo.png
+
+# Open Graph metadata
+# https://hexo.io/docs/helpers.html#open-graph
+open_graph:
+    # Facebook App ID
+    fb_app_id: 
+    # Facebook Admin ID
+    fb_admins: 
+    # Twitter ID
+    twitter_id: 
+    # Twitter site
+    twitter_site: 
+    # Google+ profile link
+    google_plus: 
+
+# 导航栏
+navbar:
+    # Navigation bar menu links
+    menu:
+        主页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
+    # 导航栏右侧图标链接
+    links:
+        My Github:
+            icon: fab fa-github
+            url: 'https://github.com/glk-hll/glk-hll.github.io'
+
+# 页脚部分链接设置
+footer:
+    # 页脚图标链接
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Download on GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+
+# 文章显示设置
+article:
+    # Code highlight settings
+    highlight:
+        # 代码主题高亮
+        # https://github.com/highlightjs/highlight.js/tree/master/src/styles
+        theme: atom-one-light # 代码主题atom-one-light亮色，atom-one-dark暗色
+        
+        # 显示代码复制按钮
+        clipboard: true
+
+        # 代码块的默认折叠状态. 可以是 "", "folded", "unfolded"
+        fold: folded
+
+    # 是否显示文章缩略图
+    thumbnail: true
+
+    # 是否显示估算阅读时间
+    readtime: true
+
+# 搜索插件设置
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search
+search:
+    # Name of the search plugin
+    type: insight
+
+# 评论插件设置
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
+comment:
+    # Name of the comment plugin
+    type: valine
+    app_id: xxxxxxxx        # (required) LeanCloud application id
+    app_key: xxxxxxxx       # (required) LeanCloud application key
+    notify: false           # (optional) receive email notification
+    verify: false           # (optional) show verification code
+    placeholder: 说点什么吧~   # (optional) comment box placeholder text
+
+# 打赏功能
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
+donate:
+    -
+        # 阿里巴巴支付宝
+        type: alipay
+        # 二维码图片地址
+        qrcode: '/images/zfb.jpg'
+    -
+        # 微信
+        type: wechat
+        
+        qrcode: '/images/wx.jpg'
+    # -
+    #     # 命名输入名称
+    #     type: paypal
+
+    #     # 支付宝业务ID或电子邮件
+    #     business: ''
+
+    #     # 货币代码
+    #     currency_code: USD
+    # -
+    #     # 命名输入名称
+    #     type: patreon
+        
+    #     # 众筹网站页面的URL
+    #     url: ''
+# Share plugin settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
+share:
+    # Share plugin name
+    type: 
+# Sidebar settings.
+# Please be noted that a sidebar is only visible when it has at least one widget
+sidebar:
+    # 左侧边栏设置
+    left:
+        # 是否不随页面滚动
+        # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
+        sticky: true
+    # right sidebar settings
+    right:
+        # 是否不随页面滚动
+        # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
+        sticky: true
+
+# 边栏小部件设置
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
+widgets:
+    -
+        # 个人信息
+        type: profile
+        # 部件位置(左)
+        position: left
+        # 作者名
+        author: Bao-Kai
+        # 作者身份描述(字符串)
+        author_title: 专注前端开发 | 做最有意思的事
+        # 在profile小部件中显示作者的当前位置
+        location: China,Hefei
+        # 头像(可用本地图片或网络图片链接)
+        avatar: 'http://i2.tiimg.com/703440/b478d24efb7b7de0.jpg'
+        # 电子邮件地址，以显示在简介中
+        gravatar: ''
+        # 显示头像是圆形还是方形 rounded or square
+        avatar_rounded: true
+        # 关注我的链接，可设为你的GitHub主页
+        follow_link: 'https://github.com/glk-hll'
+
+        # 显示在profile小部件底部的链接
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/glk-hll'
+            码云:
+                icon: fab fa-gripfire # gripfire
+                url: 'https://gitee.com/love-lili'
+            油猴脚本:
+                icon: fab fa-accusoft
+                url: 'https://greasyfork.org/zh-CN/scripts/391989-%E7%99%BE%E5%BA%A6%E5%8E%BB%E5%B9%BF%E5%91%8A-%E6%90%9C%E7%B4%A2%E9%A1%B5%E5%8E%BB%E5%8F%B3%E8%BE%B9%E6%A0%8F%E6%8E%A8%E8%8D%90%E5%86%85%E5%AE%B9-%E4%B8%AA%E6%80%A7%E6%8E%92%E7%89%88%E4%B8%BB%E9%A2%98'
+    -
+        # 小部件名称
+        type: toc
+        # 小部件应该放在哪里 left or right
+        position: left
+    -
+        # 小部件名称
+        type: links
+        # Where should the widget be placed, left or right
+        position: left
+        # Links to be shown in the links widget
+        links:
+            网易云音乐: 'https://hexo.io'
+            PPOffice: 'https://github.com/ppoffice'
+    -
+        # 分类
+        type: category
+        # Where should the widget be placed, left or right
+        position: right
+    -
+        # 标签云
+        type: tagcloud
+        # Where should the widget be placed, left or right
+        position: left
+    -
+        # 近期文章
+        type: recent_posts
+        # Where should the widget be placed, left or right
+        position: right
+    -
+        # 归档
+        type: archive
+        # Where should the widget be placed, left or right
+        position: right
+    -
+        # 标签
+        type: tag
+        # Where should the widget be placed, left or right
+        position: right
+# Other plugin settings
+plugins:
+    # Enable page animations
+    animejs: true
+    # Enable the lightGallery and Justified Gallery plugins
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
+    gallery: true
+    # Enable the Outdated Browser plugin
+    # http://outdatedbrowser.com/
+    outdated-browser: true
+    # Enable the MathJax plugin
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/mathjax-plugin/
+    mathjax: true
+    # Show the back to top button on mobile devices
+    back-to-top: true
+    # Google Analytics plugin settings
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
+    google-analytics:
+        # Google Analytics tracking id
+        tracking_id: 
+    # Baidu Analytics plugin settings
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Baidu-Analytics
+    baidu-analytics:
+        # Baidu Analytics tracking id
+        tracking_id: 
+    # Hotjar user feedback plugin
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Hotjar
+    hotjar:
+        # Hotjar site id
+        site_id: 
+    # Show a loading progress bar at top of the page
+    progressbar: true
+    # BuSuanZi site/page view counter
+    # https://busuanzi.ibruce.info
+    busuanzi: false
+# CDN provider settings
+# https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
+providers:
+    # Name or URL of the JavaScript and/or stylesheet CDN provider
+    cdn: jsdelivr
+    # Name or URL of the webfont CDN provider
+    fontcdn: google
+    # Name or URL of the webfont Icon CDN provider
+    iconcdn: fontawesome
+
+busuanzi:
+    enable: true
