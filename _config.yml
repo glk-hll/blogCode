@@ -15,7 +15,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://glkhll.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -120,3 +120,9 @@ admin:
   username: glk
   password_hash: $2a$10$9YGrC2cJQZaWXRNxf0dIZOX2Uxg41s.5xK6D.nm6rSrq1472CFWIa
   secret: cisco_psd
+
+# 自动生成sitemap
+sitemap:
+path: sitemap.xml
+baidusitemap:
+path: baidusitemap.xml
