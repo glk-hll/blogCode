@@ -226,7 +226,7 @@ plugins:
     # Enable the MathJax plugin
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/mathjax-plugin/
     mathjax: true
-    # Show the back to top button on mobile devices
+    # 在移动设备上显示“返回顶部”按钮
     back-to-top: true
     # Google Analytics plugin settings
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
