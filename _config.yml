@@ -31,7 +31,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render:		#如果也有别的页面不需要渲染，直接在下方添加就可以了
+    - 404.html		#将404.html加进去，【-】之后要有空格隔开
 
 # Writing
 new_post_name: :title.md # File name of new posts
