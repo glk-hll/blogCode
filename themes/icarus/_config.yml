@@ -68,7 +68,7 @@ article:
         clipboard: true
 
         # 代码块的默认折叠状态. 可以是 "", "folded", "unfolded"
-        fold: folded
+        fold: unfolded
 
     # 是否显示文章缩略图
     thumbnail: true
