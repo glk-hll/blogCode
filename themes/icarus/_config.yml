@@ -87,10 +87,10 @@ search:
 comment:
     # Name of the comment plugin
     type: valine
-    app_id: xxxxxxxx        # (required) LeanCloud application id
-    app_key: xxxxxxxx       # (required) LeanCloud application key
-    notify: false           # (optional) receive email notification
-    verify: false           # (optional) show verification code
+    app_id: uoAbwna3LBvBkl9Q2tpO0lOq-gzGzoHsz        # (required) LeanCloud application id
+    app_key: vapWUTjMqDkcE0Glau1d2qgQ       # (required) LeanCloud application key
+    notify: false           # (optional) receive email notification 接收电子邮件通知
+    verify: false           # (optional) show verification code 显示验证码
     placeholder: 说点什么吧~   # (optional) comment box placeholder text
 
 # 打赏功能
