@@ -155,7 +155,7 @@ widgets:
         # 在profile小部件中显示作者的当前位置
         location: China,Hefei
         # 头像(可用本地图片或网络图片链接)
-        avatar: 'http://i2.tiimg.com/703440/b478d24efb7b7de0.jpg'
+        avatar: 'https://user-images.githubusercontent.com/44257305/73907287-b08b1300-48e0-11ea-8784-97db268671c9.jpg'
         # 电子邮件地址，以显示在简介中
         gravatar: ''
         # 显示头像是圆形还是方形 rounded or square

@@ -1,4 +1,4 @@
-title: JS数组方法详解
+title: Js-数组方法详解
 author: Glk
 thumbnail: >-
   https://user-images.githubusercontent.com/44257305/70061219-da913200-161e-11ea-946f-883d085ce3dd.png
