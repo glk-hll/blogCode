@@ -107,7 +107,31 @@ live2d:
 	enable: true
 	scriptFrom: local
 	model: 
-		use: live2d-widget-model-haruto #模型选择 1. live2d-widget-model-haruto(卡通男) 2. live2d-widget-model-epsilon2_1(灰头卡通连衣裙女) 3. live2d-widget-model-gf(卡通大刀勇士) 4. live2d-widget-model-miku()
+		use: live2d-widget-model-haruto # live2d-widget-model-epsilon2_1 #模型选择 1. live2d-widget-model-haruto(卡通男) 2. live2d-widget-model-epsilon2_1(灰头卡通连衣裙女) 3. live2d-widget-model-gf(卡通大刀勇士) 4. live2d-widget-model-miku()
+
+    # live2d-widget-model-chitose 西装男超级丑
+    # live2d-widget-model-epsilon2_1 黄衣少女
+    # live2d-widget-model-gf
+    # live2d-widget-model-haru/01 (use npm install --save live2d-widget-model-haru)
+    # live2d-widget-model-haru/02 (use npm install --save live2d-widget-model-haru)
+    # live2d-widget-model-haruto
+    # live2d-widget-model-hibiki
+    # live2d-widget-model-hijiki
+    # live2d-widget-model-izumi
+    # live2d-widget-model-koharu
+    # live2d-widget-model-miku
+    # live2d-widget-model-ni-j
+    # live2d-widget-model-nico
+    # live2d-widget-model-nietzsche
+    # live2d-widget-model-nipsilon
+    # live2d-widget-model-nito
+    # live2d-widget-model-shizuku
+    # live2d-widget-model-tororo
+    # live2d-widget-model-tsumiki
+    # live2d-widget-model-unitychan
+    # live2d-widget-model-wanko
+    # live2d-widget-model-z16
+
 	display: 
 		position: right  #模型位置
 		width: 150       #模型宽度
