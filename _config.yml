@@ -144,3 +144,4 @@ admin:
   username: glk
   password_hash: $2a$10$9YGrC2cJQZaWXRNxf0dIZOX2Uxg41s.5xK6D.nm6rSrq1472CFWIa
   secret: cisco_psd
+  deployCommand: 'hexo-pubish.bat' # http://localhost:4000/admin/#/ 中 deploy 执行的脚本
