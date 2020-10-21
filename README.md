@@ -1,8 +1,25 @@
 # blogCode【博客核心代码】
+### 前提
+```
+  yarn global add hexo
+```
 
-### 开始
+### 安装
+``` npm
+  yarn
+```
 ``` npm
   npm install
+```
+
+### 启动
+```npm
+  yarn start
+```
+or
+
+```npm
+  npm run start
 ```
 
 ### 打开个人后台文章管理
