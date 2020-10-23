@@ -1,4 +1,4 @@
-title: Vue-组件间的六种通信方式
+title: Vue - 组件间的六种通信方式
 author: Glk
 thumbnail: >-
   https://user-images.githubusercontent.com/44257305/70319109-7a87cf00-185c-11ea-905c-fc7fae2f22a9.jpg
@@ -6,7 +6,7 @@ tags:
   - vue
   - 组件通信
 categories:
-  - 前端/Vue
+  - Vue
 date: 2019-12-06 18:57:00
 ---
 本文借鉴自[组件通信](https://juejin.im/post/5cde0b43f265da03867e78d3)，是我看到的很好的一篇关于Vue组件间通信的文章。

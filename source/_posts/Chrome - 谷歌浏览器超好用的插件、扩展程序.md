@@ -1,4 +1,4 @@
-title: 谷歌浏览器超好用的扩展程序
+title: Chrome - 谷歌浏览器超好用的扩展程序
 author: Glk
 tags:
   - google
@@ -6,8 +6,7 @@ tags:
   - chrome扩展
   - 翻墙
 categories:
-  - 开发者工具
-  - Chrome扩展程序
+  - Chrome
 thumbnail: >-
   https://user-images.githubusercontent.com/44257305/69305143-dc8de500-0c5d-11ea-857e-88fd311cf7bf.png
 date: 2019-11-15 12:03:00

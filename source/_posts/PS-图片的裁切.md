@@ -1,5 +1,7 @@
-title: PS——图片的裁切
+title: PS - 图片的裁切
 author: Glk
+thumbnail: >-
+  https://user-images.githubusercontent.com/44257305/96855844-dddc1900-148f-11eb-9146-038ff05c777c.jpg
 date: 2020-06-02 10:36:28
 tags:
 ---
@@ -8,12 +10,13 @@ tags:
 
 ![quanjiafu1](https://user-images.githubusercontent.com/44257305/89186167-00b40b00-d5ce-11ea-9757-6eb3e288a5b4.jpg)
 
+<!-- more -->
+
 现在需要通过PS裁切弄出下面的图片该怎么办:
 ![quanjiafu2](https://user-images.githubusercontent.com/44257305/89187359-c2b7e680-d5cf-11ea-9bcb-12b8cfb25c88.png)
 
 
 步骤如下：
-<!-- more -->
 
 1. 在 PS 中打开大分辨率图片，然后取消对图层的锁定状态，如下：
   	![1](https://user-images.githubusercontent.com/44257305/89187839-61444780-d5d0-11ea-9742-d8996bf4501b.gif)

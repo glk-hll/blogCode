@@ -192,7 +192,7 @@ widgets:
         # 分类
         type: category
         # Where should the widget be placed, left or right
-        position: right
+        position: left
     -
         # 标签云
         type: tagcloud
@@ -202,17 +202,17 @@ widgets:
         # 近期文章
         type: recent_posts
         # Where should the widget be placed, left or right
-        position: right
+        position: left
     -
         # 归档
         type: archive
         # Where should the widget be placed, left or right
-        position: right
+        position: left
     -
         # 标签
         type: tag
         # Where should the widget be placed, left or right
-        position: right
+        position: left
 # Other plugin settings
 plugins:
     # Enable page animations

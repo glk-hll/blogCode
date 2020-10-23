@@ -1,4 +1,4 @@
-title: Js-数组方法详解
+title: Js - 数组方法详解
 author: Glk
 thumbnail: >-
   https://user-images.githubusercontent.com/44257305/70061219-da913200-161e-11ea-946f-883d085ce3dd.png
@@ -6,7 +6,7 @@ tags:
   - 数组/数组方法
   - JS
 categories:
-  - 前端
+  - JS
 date: 2019-12-03 20:54:00
 ---
 ### 这里介绍 JS 在开发过程中使用到的最频繁的几个数组原型上的方法:

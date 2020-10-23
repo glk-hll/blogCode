@@ -1,17 +1,19 @@
-title: Css-利用伪元素的 content 属性实现 tooltip 插件的功能
+title: Css - 利用伪元素的 content 属性实现 tooltip 插件的功能
 author: Glk
+thumbnail: >-
+  https://user-images.githubusercontent.com/44257305/96856046-1976e300-1490-11eb-8441-4a8c5409f326.jpg
 tags:
-  - css
-  - 开发小技巧
-  - 伪元素
+  - css小技巧
+  - css伪元素
 categories:
-  - 前端开发/CSS
+  - CSS/CSS3
 date: 2020-02-06 12:07:00
 ---
 &nbsp;&nbsp;__当要实现元素 hover 的时候显示提示信息，如果用 title 属性觉得效果太弱，但
 是又不想用JS写，更不想引入一个 tooltip 第三方的大库，这个时候可以用CSS3的
 attr 属性实现，将想要展示的提示内容放到一个属性里面，而且样式可以由自己设计！__
 
+<!--more-->
 ```html
 	<p>其实, <span data-title='Are you sure?'>我一直在努力！</span></p>
 
